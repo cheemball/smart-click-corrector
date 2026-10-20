@@ -1,0 +1,24 @@
+{
+  "geode": "3.0.0",
+  "id": "tu_usuario.smart_click_corrector",
+  "name": "Smart Click Corrector",
+  "version": "v1.0.0",
+  "developer": "CheemballYT",
+  "description": "Corriexecution / corrige clicks dentro de un rango configurable para evitar muertes.",
+  "settings": {
+    "click-range": {
+      "name": "Rango de Corrección",
+      "type": "int",
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "description": "Ventana de frames antes/después donde el mod buscará un click seguro."
+    },
+    "enable-sound-feedback": {
+      "name": "Sonido al corregir",
+      "type": "bool",
+      "default": true,
+      "description": "Emite un pequeño sonido cuando el mod auto-corrija tu click."
+    }
+  }
+}
